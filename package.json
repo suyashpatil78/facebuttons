@@ -43,6 +43,10 @@
   "peerDependencies": {
     "react": ">=16"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/suyashpatil78/facebuttons.git"
+  },
   "files": [
     "dist",
     "src",
