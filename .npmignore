@@ -1,1 +1,6 @@
 src/stories
+.storybook
+node_modules
+.babelrc.json
+.gitignore
+tsconfig.json

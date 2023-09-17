@@ -1,6 +1,6 @@
 {
   "name": "facebuttons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -10,7 +10,7 @@
     "build": "npm run build:esm && npm run build:cjs && npm run copy:css",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
-    "copy:css": "cp src/components/loader.css dist/cjs/index.css && cp src/components/loader.css dist/esm/index.css",
+    "copy:css": "cp src/index.css dist/cjs/index.css && cp src/index.css dist/esm/index.css",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -46,11 +46,5 @@
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/suyashpatil78/facebuttons.git"
-  },
-  "files": [
-    "dist",
-    "src",
-    "LICENSE",
-    "README.md"
-  ]
+  }
 }
