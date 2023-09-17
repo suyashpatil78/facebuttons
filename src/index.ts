@@ -1,4 +1,3 @@
-import React from 'react';
 import NeuroButton from './components/neuro/NeuroButton';
 export interface ButtonProps {
     text: string;

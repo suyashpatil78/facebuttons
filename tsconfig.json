@@ -3,7 +3,8 @@
     "include": ["src"],
     "exclude": [
       "dist",
-      "node_modules"
+      "node_modules",
+      "src/stories"
     ],
     "compilerOptions": {
       "module": "esnext",
