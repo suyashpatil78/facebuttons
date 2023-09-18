@@ -28,7 +28,7 @@ export default App;
 ## How it looks like
 
 <p align="center">
-  <img src="https://github.com/suyashpatil78/wheelerjs/blob/main/assets/demo.gif" />
+  <img src="https://github.com/suyashpatil78/facebuttons/assets/127177049/2f92dc92-70ee-4f51-b06d-4664c0a1a01d" />
 </p>
 
 * If you face any issue, use github issues for that
