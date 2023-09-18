@@ -12,6 +12,7 @@ export default {
         },
         width: '100px',
         padding: '10px',
+        fontSize: '16px',
     },
     tags: ['autodocs'],
     argTypes: {
@@ -19,6 +20,7 @@ export default {
         onClick: { action: 'clicked' },
         width: { control: 'text' },
         padding: { control: 'text' },
+        fontSize: { control: 'text' },
     },
 };
 
